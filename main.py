@@ -2,6 +2,8 @@ import discord
 import os
 from discord.ext import commands
 from keepalive import keep_alive
+os.system('chmod +777 ./ffmpeg')
+
 
 client = commands.Bot(command_prefix = "$")
 
